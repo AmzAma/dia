@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../style/reset.css">
+  <link rel="stylesheet" href="../style/index.css">
+</head>
+
+<body>
+  <!-- logo -->
+  <header>
+    <div class="wrapper">
+      <img src="../img/QQ图片202011.png" alt="">
+    </div>
+    <!-- 登录 -->
+    <div class="login">
+      <!-- 登录和扫码登录 -->
+      <div class="wrapper" style="height:588px;">
+        <div class="nav_tabs_panel">
+          <div class="nav_tabs">
+            <a href="#">账号登录</a>
+            <span>|</span>
+            <a href="#">扫码登录</a>
+          </div>
+          <div class="logintabs">
+            <form action="../js/library/login.php" method="POST">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="邮箱/手机号码/小米ID" aria-describedby="username"
+                  name="username">
+              </div>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="密码" aria-describedby="password" name="password">
+              </div>
+              <input type="submit" class="btn btn-success btn-block">
+            </form>
+            <p style="color: #ff6700;line-height: 20px;">手机短信验证登录/注册</p>
+            <div>
+              <a href="#" style="color: #999999;">立刻注册</a>
+              <span>|</span>
+              <a href="#" style="color: #999999;">忘记密码？</a>
+            </div>
+            <img src=" ../img/QQ图片2020.png" alt="" style="margin:0 auto">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="wrapper">
+        <div style="width:360px;height:50px;margin:0 auto;">
+          <ul>
+            <li><a href="#">简体</a></li>
+            <li><span>|</span></li>
+            <li><a href="#">繁体</a></li>
+            <li><span>|</span></li>
+            <li><a href="#">English</a></li>
+            <li><span>|</span></li>
+            <li><a href="#">常见问题</a></li>
+            <li><span>|</span></li>
+            <li><a href="#">隐私政策</a></li>
+          </ul>
+        </div>
+        <div style="width:600px;height:50px;margin:0 auto;">
+          <span style="color:#757575;">小米公司版权所有-京ICP备10046444-</span>
+          <a href="#" style="color:#757575;">
+            <img src="../img/ghs.png" alt="" style="display: inline-block;">
+            京公网安备11010802020134号</a>
+          <span style="color:#757575;">-京ICP证110507号</span>
+        </div>
+      </div>
+
+    </div>
+  </header>
+</body>
+
+</html>
