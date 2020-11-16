@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="../style/reset.css">
-  <link rel="stylesheet" href="../style/shopcard.css">
+  <link rel="stylesheet" href="../style/shopcard2.css">
   <link rel="stylesheet" href="../iconfont/iconfont.css">
+  <script src="../js/shopcard.js" type="module"></script>
 </head>
 
 <body>
@@ -27,15 +28,39 @@
   <main>
     <div class="wrapper">
       <!-- 购物车 -->
-      <div class="empty-card-top">
-        <h2>您的购物车还是空的！</h2>
-        <p>登录后将显示您之前加入的商品</p>
-        <a href="./login.html" class="loging">立即登录</a>
-        <a href="#" class="shop">马上去购物</a>
+      <div class="list-head">
+        <div style="width:20%"><i>√</i>全选</div>
+        <div style="width:30%">商品名称</div>
+        <div style="width:12%">单价</div>
+        <div style="width:12%">数量</div>
+        <div style="width:12%">小计</div>
+        <div style="width:12%">操作</div>
+      </div>
+      <div class="item-table">
+        <!-- <div style="width:20%"><i>√</i></div>
+        <div style="width:30%">商品名称</div>
+        <div style="width:12%">单价</div>
+        <div style="width:12%">数量</div>
+        <div style="width:12%">小计</div>
+        <div style="width:12%">操作</div> -->
+      </div>
+      <div class="cart-bar">
+        <div style="width:10%;margin:0 24px;">继续购物</div>
+        <div style="width:20%">
+          <span>共</span>
+          <span></span>
+          <span>件商品，已选择</span>
+          <span></span>
+          <span>件</span>
+        </div>
+        <div style="width:40%;color: #ff6700;">合计：</div>
+        <div style="width:20% ;float:right;font-size: 18px;background: #e0e0e0!important;
+        border-color: #e0e0e0!important;
+        color: #b0b0b0!important;">去结算</div>
       </div>
       <!-- 推荐商品 -->
       <h2 class="recommend-title">
-        <span>为您推荐</span>
+        <span>买购物车中商品的人还买了</span>
       </h2>
     </div>
     <!-- 推荐的商品 -->

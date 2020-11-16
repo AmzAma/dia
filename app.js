@@ -8,7 +8,7 @@ const usersRouter = require('./router/users');
 const productRouter = require('./router/product');
 let conf = {
   port: 8808,
-  host: 'localhost'
+  host: '10.31.162.84'
 };
 
 app.use(express.static(path.join(__dirname, 'public')));
@@ -17,6 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use('/users', usersRouter);
 app.use('/product', productRouter);
+
 app.use(function (req, res, next) {
   next(createError(404));
 });

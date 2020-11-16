@@ -761,13 +761,13 @@ header > .login > .wrapper > .nav_tabs_panel > .logintabs {
   border: 0;
   padding: 0;
 }
-header > .login > .wrapper > .nav_tabs_panel > .logintabs > form > .input-group input {
+header > .login > .wrapper > .nav_tabs_panel > .logintabs > .biao > .input-group input {
   height: 24px;
   width: 306px;
   border: 1px solid #e0e0e0;
   padding: 13px 16px 13px 14px;
 }
-header > .login > .wrapper > .nav_tabs_panel > .logintabs > form > input {
+header > .login > .wrapper > .nav_tabs_panel > .logintabs > .biao > input {
   height: 48px;
   width: 334px;
   background-color: #ff6700;

@@ -17,22 +17,24 @@
     <img src="../img/milogo.png" alt="" style="margin:0 auto">
     <h4>注册小米账号</h4>
     <div style="width: 332px;margin:0 auto;">
-      <h4 style="font-weight: normal;padding-top: 30px;line-height: 20px;">国家/地区</h4>
-      <!-- 国家地区 -->
+      <h4 style="font-weight: normal;padding-top: 30px;line-height: 20px;">账号</h4>
+      <!-- 手机号码 -->
       <div class="area">
-        <div class="leftbox"></div>
+        <input type="text" placeholder="请输入账号" name="user_phone" class="leftbox" id="phone">
         <div class="rightbox"><span>﹀</span></div>
+        <div id="text"></div>
       </div>
-      <p style="color:#666;margin-top:10px;">成功注册帐号后，国家/地区将不能被修改</p>
+      <p style="color:#666;margin-top:10px;">成功注册帐号后,账号将不能被修改</p>
 
-      <h4 style="font-weight: normal;padding-top: 30px;line-height: 20px;">手机号码</h4>
+      <h4 style="font-weight: normal;padding-top: 30px;line-height: 20px;">密码</h4>
       <!-- 手机号码 -->
       <div class="phone">
         <div class="phonebox"><span>+1 ▼</span></div>
-        <input type="text" placeholder="请输入手机号码" name="user_phone">
+        <input type="password" placeholder="请输入密码" name="user_password" id="password">
+        <div id="text1"></div>
       </div>
 
-      <input type="button" value="立即注册" id="zc">
+      <input type="submit" value="立即注册" id="zc">
       <p style="text-align: center;margin-top:100px;color:#9d9d9d">已阅读并同意：小米 用户协议和 隐私政策</p>
     </div>
   </div>

@@ -18,8 +18,12 @@ router.route('/getItem')
       res.json(result);
     });
   });
-router.route('/getItem')
+router.route('/getCard')
   .get((req, res, next) => {
-    console.log(req.query)
+    let sql = 'select * from product';
+    conn.query(sql, (err, result) => {
+      if (err) console.log(err);
+      res.json(result);
+    });
   });
 module.exports = router;
