@@ -3,6 +3,7 @@ import './library/jquery.md5.js';
 import { baseUrl } from './library/config.js';
 (function () {
   let temp = '';
+
   $.ajax({
     type: "get",
     url: `${baseUrl}/product/getCard`,
