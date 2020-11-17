@@ -15,7 +15,6 @@ $('#zc').on('click', function () {
       if (response.msg == '存在') {
         alert(response.msg);
       } else {
-
         location = '../html/login.html'
       }
     }

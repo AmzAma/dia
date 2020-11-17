@@ -104,6 +104,14 @@ main > .wrapper > .cart-bar {
   margin-bottom: 100px;
   border-top: 1px solid #f5f5f5;
 }
+main > .wrapper > .cart-bar::before {
+  content: "";
+  clear: block;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
 main > .wrapper > .cart-bar > div {
   float: left;
   line-height: 50px;

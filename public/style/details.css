@@ -389,7 +389,7 @@
   margin-top: 30px;
   border: 1px solid #e0e0e0;
 }
-.shopping .btn-line-primary .p {
+.shopping .btn-line-primary #p {
   display: inline-block;
   width: 300px;
   height: 64px;
@@ -401,7 +401,7 @@
   margin-top: 30px;
   background-color: white;
 }
-.shopping .btn-line-primary .p:hover {
+.shopping .btn-line-primary #p:hover {
   background: #ff6700;
   color: white;
   transition: all 0.5s;
