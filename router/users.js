@@ -39,10 +39,8 @@ router.route('/reg')
             res.json({ msg: "注册成功" });
           }
         });
-
       }
     })
-
   })
 
 
